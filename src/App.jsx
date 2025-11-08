@@ -1,5 +1,13 @@
-import React from "react";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./pages/Login";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path="Login" element={<Login />} />
+    </Routes>    
+    </BrowserRouter>
+  );
 }
