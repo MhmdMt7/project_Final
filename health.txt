@@ -1,0 +1,49 @@
+src/
+│
+├── assets/                   # صور وأيقونات
+│
+├── components/
+│   ├── layout/               # مكونات عامة
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── Sidebar.jsx
+│   │
+│   ├── home/                 # مكونات صفحة Home
+│   │   ├── Hero.jsx
+│   │   ├── Services.jsx
+│   │   ├── Doctors.jsx
+│   │   └── Contact.jsx
+│   │
+│   ├── dashboard/            # عناصر واجهات الداشبورد
+│   │   ├── PatientForm.jsx
+│   │   ├── VisitForm.jsx
+│   │   ├── DoctorCard.jsx
+│   │   ├── MedicineCard.jsx
+│   │   └── ReportCard.jsx
+│   │
+│   └── ui/                   # عناصر واجهة عامة (أزرار، بطاقات..)
+│       ├── Button.jsx
+│       ├── Card.jsx
+│       └── SectionTitle.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Login.jsx
+│   ├── ReceptionDashboard.jsx
+│   ├── DoctorDashboard.jsx
+│   ├── PharmacyDashboard.jsx
+│   ├── Reports.jsx
+│   └── NotFound.jsx
+│
+├── store/
+│   └── useAuthStore.js       # تخزين بيانات المستخدم JWT Role
+│
+├── api/
+│   ├── axiosInstance.js
+│   └── endpoints.js
+│
+├── routes/
+│   └── AppRouter.jsx
+│
+├── App.jsx
+└── main.jsx
