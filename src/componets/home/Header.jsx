@@ -6,7 +6,7 @@ import logo from '../../assets/logo-removebg-preview.png'
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="bg-white/80 backdrop-blur-lg shadow-sm sticky top-0 z-50">
+    <header className="bg-white/50 backdrop-blur-lg shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         {/* <a href="#" className="text-2xl font-bold text-blue-600">
           <img
